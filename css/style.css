@@ -1,0 +1,30 @@
+#d1 {
+height:140px;
+width:640px;
+background-color:#2E2F33;
+}
+#d2 {
+height:1100px;
+width:641px;
+background-color:#f2644E;
+}
+
+
+.star {
+animation: respire 3s;
+-webkit-animation: respire 3s;
+-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes respire
+{
+0% {-webkit-transform-origin: 50% 100%;-webkit-transform : scaleX(1) scaleY(1);}
+50% {-webkit-transform-origin: 50% 100%;-webkit-transform : scaleX(1.05) scaleY(0.95);}
+100% {-webkit-transform-origin: 50% 100%;-webkit-transform : scaleX(1) scaleY(1);}
+}
+
+@keyframes respire
+{
+0% {transform-origin: 50% 100%;transform : scaleX(1) scaleY(1);}
+50% {transform-origin: 50% 100%;transform : scaleX(1.05) scaleY(0.95);}
+100% {transform-origin: 50% 100%;transform : scaleX(1) scaleY(1);}
+} 
